@@ -1,0 +1,278 @@
+/* Charitify Theme Responsive Design */
+
+@media (max-width: 1024px) {
+
+   
+}
+
+/* ---- Start of max-width 992px CSS ---- */
+@media (max-width: 992px) {
+    ul.nav > li > a {
+        font-size: 10px;
+        padding: 0 5px;
+    }
+    
+    .bottom-header .default-btn{
+        display: none;
+    }
+
+    #mainmenu li{
+        padding-left: 15px;
+    }
+
+
+}
+/* ---- End of max-width 992px CSS ---- */
+
+
+/* ---- Start of max-width 767px CSS ---- */
+@media all and (max-width: 767px) {
+    body, p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    p br{
+        display: none;
+    }
+    
+    .navbar-header {
+        padding: 23px 20px;
+    }
+
+    .navbar-header .brand {
+        display: block;
+        padding: 13px 25px;
+    }
+
+    .js #mainmenu {
+        display:none;
+    }
+
+    .js .slicknav_menu {
+        display:block;
+        margin-right: -450px;
+    }
+
+    .hero-slides-content {
+        background:transparent;
+        left: 0;
+        width:100%;
+        padding: 20px;    
+    }
+
+    .owl-nav div{
+        left: 0;
+    }
+    .owl-nav div.owl-next{
+        right: 0;
+    }
+
+    .hero-section{
+        height: 400px;
+    }
+
+    .hero-slides-content h1{
+        font-size: 30px!important;
+    }
+    .site-branding img{
+        padding: 5px 0;
+        max-width: 85px;
+    }
+
+    .logo-text a {
+        font-size: 18px;
+    }
+    
+    #scroll-to-top {
+        width: 35px;
+        height: 35px;
+        font-size: 10px;
+        line-height: 35px;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .footer-last-social-link {
+        margin-bottom: 10px;
+    }
+
+    .designer-company{
+        text-align: center;
+    }
+
+    .designer-company a {
+        float: none;
+    }
+
+    .ft-fixed-area {
+        margin-top:0px; 
+    }
+
+    div#big-img {
+        display: none;
+    }
+
+    .inner-page-about-title h3 {
+        font-size: 30px;
+    }
+
+
+    /*new css*/
+
+
+    .pt-pb-70-35 {
+        padding-top: 70px;
+    }
+
+    footer .footer-background .footer-about-bottom p {
+        max-width: 100%;
+    }
+
+    .offer-body{
+        height: auto;
+    }
+
+    .feature-box {
+        margin-top: 0;
+        margin-bottom: 10px; 
+    } 
+
+    .get-btn {
+        display: none;
+    }
+
+    .social-link{
+        display: none;
+    } 
+
+    .top-header{
+        display: none;
+    } 
+
+    .bottom-header {
+        background-color: #fff;
+    }
+
+    .story {
+        padding: 15px;
+        transform:none;
+    }
+
+    .story__shape {
+        width: 35%;
+        height: 20%;
+        shape-outside: circle(50% at 50% 50%);
+        -webkit-shape-outside: circle(50% at 50% 50%);
+        clip-path: circle(50% at 60% 50%);
+        -webkit-clip-path: circle(50% at 60% 50%);
+        transform: none;
+    }
+    .story__text {
+        transform: none;
+    }
+
+    .bottom-header {
+        top:0;
+    }
+
+    .team-img img {
+        width: 100%;
+    }
+
+    .blog--head-img.blog--head-img-front img {
+        width: 100%;
+    }
+
+    .blog--head-img.blog--head-img-front{
+        margin-bottom: 10px;
+    }
+
+    .pl{
+        padding-left: 0;
+    }
+
+
+}
+/* ---- End of max-width 767px CSS ---- */
+
+@media (min-width: 768px){
+
+    /*.bottom-content-wrap .col-sm-3{
+        display: none;
+    }
+
+    .bottom-content-wrap .col-sm-9{
+        margin: 0;
+    }*/
+
+}
+
+/* ---- Start of max-width 698px CSS ---- */
+@media all and (max-width: 698px) {
+
+.js .slicknav_menu {
+        display:block;
+        margin-right: -400px;
+    }
+}
+
+/* ---- Start of max-width 598px CSS ---- */
+@media all and (max-width: 598px) {
+
+.js .slicknav_menu {
+        display:block;
+        margin-right: 0;
+    }
+
+    .block-wrap {
+    padding: 10px 8px 10px 8px;
+    float: left;
+    margin: 10px 0;
+}
+
+.block-wrap-list {
+    padding: 0;
+}
+
+}
+
+
+/* ---- Start of max-width 480px CSS ---- */
+@media all and (max-width: 480px) {
+    
+     
+    .top-content-wrap ul li{
+        margin-right: 18px;
+    }
+
+.block-wrap {
+    padding: 5px 0px;
+    float: left;
+    margin: 6px;
+}
+
+}
+/* ---- End of max-width 480px CSS ---- */
+
+
+/* ---- Start of max-width 420px CSS ---- */
+@media all and (max-width: 420px) {
+    
+}
+/* ---- End of max-width 420px CSS ---- */
+
+
+/* ---- Start of max-width 380px CSS ---- */
+@media all and (max-width: 380px) {
+	
+}
+/* ---- End of max-width 380px CSS ---- */
