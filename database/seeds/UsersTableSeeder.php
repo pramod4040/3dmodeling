@@ -15,8 +15,8 @@ class UsersTableSeeder extends Seeder
       User::truncate();
       $user = [
         'name' => '3DModelling',
-        'email' => 'info@geo3dmodelling.com.np',
-        'password' => bcrypt('3dmodelling@12345'),
+        'email' => 'info@geo.com',
+        'password' => bcrypt('12345'),
     ];
       User::create($user);
     }
